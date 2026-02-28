@@ -56,8 +56,8 @@ export const portfolioData: PortfolioData = {
     name: "Akhdan Farros Renoldi",
     initials: "Akhdan",
     title: {
-      en: "Fullstack Engineer",
-      id: "Fullstack Engineer",
+      en: "Software Engineer",
+      id: "Software Engineer",
     },
     tagline: {
       en: "Building reliable web systems",
@@ -82,8 +82,8 @@ export const portfolioData: PortfolioData = {
   about: {
     paragraphs: [
       {
-        en: "I'm a <strong>Fullstack Engineer</strong> and fresh graduate from the Informatics program at Institut Teknologi Nasional Bandung. I thrive in collaborative environments and love picking up new technologies along the way.",
-        id: "Saya adalah <strong>Fullstack Engineer</strong> dan fresh graduate dari Program Studi Informatika di Institut Teknologi Nasional Bandung. Saya berkembang dalam lingkungan kolaboratif dan senang mempelajari teknologi baru.",
+        en: "I'm a <strong>Software Engineer</strong> and fresh graduate from the Informatics program at Institut Teknologi Nasional Bandung. I thrive in collaborative environments and love picking up new technologies along the way.",
+        id: "Saya adalah <strong>Software Engineer</strong> dan fresh graduate dari Program Studi Informatika di Institut Teknologi Nasional Bandung. Saya berkembang dalam lingkungan kolaboratif dan senang mempelajari teknologi baru.",
       },
       {
         en: "During my time at <strong>PT. GITS Indonesia</strong>, I worked on maintenance and feature development for enterprise clients like <strong>Danone, Jasa Raharja,</strong> and <strong>Frisianflag</strong> — giving me early exposure to real-world, production-grade systems.",
@@ -118,7 +118,7 @@ export const portfolioData: PortfolioData = {
       role: { en: "Fullstack Engineer", id: "Fullstack Engineer" },
       company: "PT. GITS Indonesia",
       type: { en: "Contract", id: "Kontrak" },
-      period: "Oct 2024 – Jan 2025",
+      period: "Oct 2025 – Present",
       points: [
         {
           en: "Maintained Frisianflag QNS using AdonisJS & MySQL — weekly server checks and monthly data insight reports for client.",
@@ -142,7 +142,7 @@ export const portfolioData: PortfolioData = {
       role: { en: "Software Engineer Intern", id: "Magang Software Engineer" },
       company: "PT. GITS Indonesia",
       type: { en: "Internship", id: "Magang" },
-      period: "May 2024 – Aug 2024",
+      period: "May 2025 – Aug 2025",
       points: [
         {
           en: "Developed Danone Nutribuy e-commerce website using Vue.js, Tailwind CSS, and Laravel Blade Template.",

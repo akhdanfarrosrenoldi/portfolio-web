@@ -31,7 +31,7 @@ export function Hero() {
           animate="visible"
           variants={fadeUpVariant}
         >
-          {"// FULLSTACK ENGINEER"}
+          {"// SOFTWARE ENGINEER"}
         </motion.div>
         
         <motion.h1

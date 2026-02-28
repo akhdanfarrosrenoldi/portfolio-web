@@ -35,14 +35,18 @@ export function Navbar() {
   if (!mounted) {
     return (
       <nav id="navbar" className={scrolled ? "scrolled" : ""}>
-        <div className="nav-logo">{portfolioData.personal.initials}</div>
+        <Link href="/" className="nav-logo" style={{ marginLeft: '12px' }}>
+          <Image src="/logo.png" width={32} height={32} alt="Logo" style={{ width: '52px', height: '32px' }} priority />
+        </Link>
       </nav>
     );
   }
 
   return (
     <nav id="navbar" className={scrolled ? "scrolled" : ""}>
-      <div className="nav-logo">{portfolioData.personal.initials}</div>
+      <Link href="/" className="nav-logo" style={{ marginLeft: '12px' }}>
+        <Image src="/logo.png" width={32} height={32} alt="Logo" style={{ width: '52px', height: '32px' }} priority />
+      </Link>
       
       <div className="nav-right">
         <ul className="nav-links">
