@@ -12,11 +12,11 @@ export default function AboutPage() {
             {portfolioData.personal.name}
           </h1>
           <p className="text-sm text-[var(--muted2)]">
-            {portfolioData.personal.title} · {portfolioData.personal.location}
+            {portfolioData.personal.title.en} · {portfolioData.personal.location.en}
           </p>
           <div className="space-y-3 text-sm text-[var(--muted)]">
             {portfolioData.about.paragraphs.map((paragraph) => (
-              <p key={paragraph}>{paragraph}</p>
+              <p key={paragraph.en}>{paragraph.en}</p>
             ))}
           </div>
         </section>
