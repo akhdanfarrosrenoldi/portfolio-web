@@ -27,7 +27,7 @@ export function Contact() {
           animate={isInView ? "visible" : "hidden"}
           variants={revealVariant}
         >
-          <div className="section-tag">{language === 'en' ? '// 05 — CONTACT' : '// 05 — KONTAK'}</div>
+          <div className="section-tag">{language === 'en' ? '// 06 — CONTACT' : '// 06 — KONTAK'}</div>
           <h2>
             {language === 'en' ? "Let's work" : "Mari bekerja"}
             <br />

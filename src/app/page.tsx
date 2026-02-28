@@ -5,6 +5,7 @@ import { About } from "@/components/sections/About";
 import { Skills } from "@/components/sections/Skills";
 import { Experience } from "@/components/sections/Experience";
 import { Projects } from "@/components/sections/Projects";
+import { PersonalProjects } from "@/components/sections/PersonalProjects";
 import { Contact } from "@/components/sections/Contact";
 
 export default function Page() {
@@ -20,6 +21,8 @@ export default function Page() {
       <Experience />
       <div className="divider" />
       <Projects />
+      <div className="divider" />
+      <PersonalProjects />
       <div className="divider" />
       <Contact />
       <Footer />
