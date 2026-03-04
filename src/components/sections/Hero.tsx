@@ -77,7 +77,11 @@ export function Hero() {
           <Link href="#projects" className="btn-primary">
             {language === 'en' ? 'View Projects ↓' : 'Lihat Proyek ↓'}
           </Link>
-          <Link href="/CV_AkhdanFR.pdf" className="btn-outline" target="_blank">
+          <Link
+            href={language === 'en' ? '/CV_AkhdanFR.pdf' : '/CV_AkhdanFarrosRenoldi.pdf'}
+            className="btn-outline"
+            target="_blank"
+          >
             {language === 'en' ? 'Download CV' : 'Unduh CV'}
           </Link>
         </motion.div>
