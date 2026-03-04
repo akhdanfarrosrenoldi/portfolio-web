@@ -76,7 +76,7 @@ export function PersonalProjects() {
                         className="tag"
                         style={{ fontSize: "9px", letterSpacing: "0.15em" }}
                       >
-                        COMING SOON
+                        {language === "en" ? "COMING SOON" : "SEGERA HADIR"}
                       </span>
                     </div>
                   </>
@@ -87,7 +87,7 @@ export function PersonalProjects() {
                     rel="noopener noreferrer"
                     className="block w-full h-full"
                     tabIndex={0}
-                    aria-label={`Open ${project.title} live site`}
+                    aria-label={language === "en" ? `Open ${project.title} live site` : `Buka situs ${project.title}`}
                   >
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
@@ -117,7 +117,7 @@ export function PersonalProjects() {
 
                 {/* Description */}
                 <p className="project-desc" style={{ marginBottom: "16px" }}>
-                  {project.description}
+                  {project.description[language]}
                 </p>
 
                 {/* Tags */}
@@ -176,7 +176,7 @@ export function PersonalProjects() {
                       href={project.liveUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      aria-label="Live preview"
+                      aria-label={language === "en" ? "Live preview" : "Pratinjau langsung"}
                       style={{
                         display: "inline-flex",
                         alignItems: "center",
@@ -196,7 +196,7 @@ export function PersonalProjects() {
                       }
                     >
                       <ExternalLink size={12} strokeWidth={1.75} />
-                      Preview →
+                      {language === "en" ? "Preview →" : "Pratinjau →"}
                     </a>
                   )}
                 </div>

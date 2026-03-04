@@ -1,7 +1,7 @@
 export interface PersonalProject {
   id: number
   title: string
-  description: string
+  description: { en: string; id: string }
   tags: string[]
   liveUrl: string | null
   githubUrls: {
@@ -16,7 +16,10 @@ export const personalProjects: PersonalProject[] = [
   {
     id: 1,
     title: "Greens & Co.",
-    description: "Full-stack F&B e-commerce platform with admin dashboard, cart system, and Supabase auth. Built with Next.js, Go + Echo, and PostgreSQL.",
+    description: {
+      en: "Full-stack F&B e-commerce platform with admin dashboard, cart system, and Supabase auth. Built with Next.js, Go + Echo, and PostgreSQL.",
+      id: "Platform e-commerce F&B full-stack dengan dashboard admin, sistem keranjang, dan autentikasi Supabase. Dibangun dengan Next.js, Go + Echo, dan PostgreSQL."
+    },
     tags: ["Next.js", "Go", "PostgreSQL", "Supabase"],
     liveUrl: "https://greensco.vercel.app",
     githubUrls: [
@@ -35,7 +38,10 @@ export const personalProjects: PersonalProject[] = [
   {
     id: 2,
     title: "Portfolio Web",
-    description: "Personal portfolio website with bilingual support (EN/ID), dark/light mode toggle, and smooth scroll animations.",
+    description: {
+      en: "Personal portfolio website with bilingual support (EN/ID), dark/light mode toggle, and smooth scroll animations.",
+      id: "Website portofolio pribadi dengan dukungan bilingual (EN/ID), toggle mode gelap/terang, dan animasi scroll yang halus."
+    },
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
     liveUrl: "https://akhdanfarrosrenoldi.vercel.app",
     githubUrls: [
@@ -50,7 +56,10 @@ export const personalProjects: PersonalProject[] = [
   {
     id: 3,
     title: "Coming Soon",
-    description: "Next project in progress. Stay tuned.",
+    description: {
+      en: "Next project in progress. Stay tuned.",
+      id: "Proyek berikutnya sedang dalam pengerjaan. Pantau terus."
+    },
     tags: [],
     liveUrl: null,
     githubUrls: [
