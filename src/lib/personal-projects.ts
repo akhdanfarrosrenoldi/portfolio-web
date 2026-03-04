@@ -66,7 +66,7 @@ export const personalProjects: PersonalProject[] = [
       label: "GitHub",
       url: "https://github.com/akhdanfarrosrenoldi/jobtrack"
     }],
-    previewImage: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&q=80",
+    previewImage: "/jobtrack-preview.png",
     status: "live"
   }
 ]
